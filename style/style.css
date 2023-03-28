@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.menu{
+	background-color: #fff;
+	color: #333;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+    height: 25px;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+}
+
+.nav{
+	width: 13%;
+}	
+.nav a{
+	margin-right: 20px;
+}
+.nav a{
+	border: 3px solid transparent;
+}
+.nav a:hover{
+	border-bottom: 3px solid #a8a8a8;
+}
+.banner {
+	background-image: url('../images/summer-beach-background-free-vector.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 400px;
+}
+
+.texts{
+    padding-left: 50px;
+}
+.texts h2{
+    font-size: 32px;
+}
+.texts p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.div1 {
+    padding-left: 60px;
+}
+.div1 h2{
+	margin-top: 50px;
+}
+.shoes{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cloth{
+    height: 200px;
+}
+.shoes p{
+    font-style: italic;
+    color: rgb(202, 27, 27);
+    font-weight: bold;
+}
+.others{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.others p{
+    font-style: italic;
+    color: rgb(202, 27, 27);
+    font-weight: bold;
+}
+.div2{
+    margin-top: 150px;
+    padding-left: 60px;
+}
+.item img:hover{
+    background-color: #ddd;
+    transition: .2s ease-in;
+}
+.item{
+    height: 325px;
+}
+footer{
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 640px){
+	.shoes{
+		flex-wrap: wrap;
+	}
+	.others{
+		flex-wrap: wrap;
+	}
+	.menu h1{
+		font-size: 22px;
+	}
+	.random{
+		width: 45%;
+	}
+	.nav{
+		width: 35%;
+		margin-right: 0px;
+	}
+	.nav a{
+		margin-right: 15px;
+	}
+	.logo{
+		height: 20px;
+	}
+	.menu{
+		padding-right: 0px;
+	}
+}
