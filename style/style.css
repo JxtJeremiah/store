@@ -188,6 +188,9 @@ footer{
 		padding: 0 100px;
     }
     
+	.item img:hover{
+		background-color: white;
+	}
     footer {
         padding: 0 20px;
     }
